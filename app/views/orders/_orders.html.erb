@@ -8,7 +8,7 @@
       <div class="Order-section">
         <p class="Order-sub">Details</p>
 
-        <% if order.user.is_clerk? || order.user.is_owner? %>
+        <% if (order.user.is_clerk? || order.user.is_owner?) %>
         <div class="Walk-image">
           Walk In Customer 
        </div>
